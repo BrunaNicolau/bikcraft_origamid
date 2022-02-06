@@ -1,18 +1,16 @@
-/* Estilo para tablets */
+/*Estilo para tablets*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
-
-/*Qualidade Home*/	
-
+/*Qualidade Home*/
 .qualidade:after {
 	right: 66px;
 }
 
 .qualidade_lista li {
-    padding: 0 10px;
+	padding: 0 10px;
 }
 
-/* Footer */
+/*Footer*/
 
 .footer_redes ul li a {
 	border: 3px solid #fec63e;
@@ -21,12 +19,12 @@
 
 }
 
-.footer_redes ul li a img {
+.footer_redes ul li a img{
 	width: 26px;
 	height: 26px;
 }
 
-/* Produtos */
+/*Produtos*/
 
 .produto_item h2{
 	top: -150px;
@@ -37,7 +35,7 @@
 	padding: 41px 0;
 }
 
-.produto_info p {
+.produto_info p{
 	font-size: 14px;
 	line-height: 20px;
 	height: 122px;
@@ -49,15 +47,12 @@
 	height: 49px;
 }
 
-}
-/* Final do estilo para tablets */
+} /* Final do estilo para tablets */
 
-/* Estilo para smarts */
-
+/*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
 
-/* Header */
-
+/*Header*/
 .header {
 	position: relative;
 	padding-bottom: 0px;
@@ -87,11 +82,10 @@
 }
 
 .header_menu ul li a.menu_ativo {
-    border-color: #fff;
+	border-color: #fff;
 }
 
-
-/* Introdução */
+/*Introducao*/
 
 .introducao h1 {
 	font-size: 36px;
@@ -104,22 +98,24 @@
 	background-size: cover;
 }
 
-/* Introdução Interna */
+/*Introdução Interna*/
+
 .introducao-interna {
-    margin-top: 0px;
+	margin-top: 0px;
 }
 
-/* call */
-
+/*Call*/
 .call {
-    padding-top: 10px;
+	padding-top: 10px;
 }
 
-/* Qualidade Home */
+/*Qualidade Home*/
 .qualidade:after {
-    display: none;
+	display: none;
 }
-/* Sobre */
+
+/*Sobre*/
+
 .missao_sobre p {
 	font-size: 14px;
 	line-height: 20px;
@@ -131,7 +127,8 @@
 	line-height: 25px;
 }
 
-/* Produtos */
+/*Produtos*/
+
 .produto_item h2{
 	top: -100px;
 	margin-bottom: -68px;
@@ -141,7 +138,7 @@
 	padding: 41px 0;
 }
 
-.produto_info p {
+.produto_info p{
 	font-size: 14px;
 	line-height: 20px;
 	height: auto;
@@ -161,16 +158,14 @@
 }
 
 .orcamento_dados ul {
-    padding-right: 0px;
+	padding-right: 0px;
 }
 
-/* Contato */
+/*Contato*/
 
 .contato_form {
 	padding-right: 0px;
 	margin-bottom: 40px;
 }
 
-}
-
-/* Final smarts */
+} /* Final do estilo para smartphone */

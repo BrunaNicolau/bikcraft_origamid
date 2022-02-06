@@ -12,6 +12,7 @@ p {
 
 img {
 	display: block;
+	max-width: 100%;
 }
 
 .btn {
@@ -30,19 +31,7 @@ img {
 	border-color: #fff;
 }
 
-.btn-preto{
-	border: 3px solid #fec63e;
-	padding: 10px 30px;
-	color: #fec63e;
-	font-size: 14px;
-	line-height: 20px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: .1em;
-
-}
-
-.btn-preto:hover {
+.btn.btn-preto:hover {
 	color: #000;
 	border-color: #000;
 }
@@ -197,15 +186,6 @@ img {
 	margin: 6px auto 10px auto;
 }
 
-/*Introdução Interna*/
-
-.introducao-interna{
-
-	width: 100%;
-	height: 160px;
-	margin-top: 92px;
-
-}
 
 /*Produtos*/
 
@@ -218,7 +198,6 @@ img {
 	text-align: center;
 }
 
-/* Necessário para centralizar as imagens */
 .produtos_lista li img {
 	margin: 0 auto;
 }
@@ -245,7 +224,7 @@ img {
 	padding: 10px 20px 20px 20px;
 }
 
-.produtos_icones {
+.produtos_icone {
 	background: #000;
 	padding: 20px;
 }
@@ -276,9 +255,8 @@ img {
 	background: #fec63e;
 }
 
-.portfolio_space{
+.portfolio_lista li:last-child {
 	margin-top: 20px;
-
 }
 
 .portfolio .call p {
@@ -406,4 +384,45 @@ img {
 	width: 100%;
 	background: #fec63e;
 	padding: 20px 0;
+}
+
+/* JavaScript */
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	border: none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -99px;
+	overflow: hidden;
+	background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+	background: #fec63e;
 }
